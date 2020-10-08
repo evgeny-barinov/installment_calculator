@@ -1,0 +1,20 @@
+{
+    "name": "insly-test",
+    "authors": [
+        {
+            "name": "Eugene Barinov",
+            "email": "barinov.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Insly\\CarCalculator\\": "calculator/"
+        }
+    }
+}
